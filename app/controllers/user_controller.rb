@@ -1,4 +1,5 @@
 class UserController < ApplicationController
+	
 	def new
 	end
 
@@ -7,5 +8,5 @@ class UserController < ApplicationController
 
 	def edit
 	end
-		
+
 end
