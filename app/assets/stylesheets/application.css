@@ -14,3 +14,8 @@
  *= require_self
  *= require toastr
  */
+
+.navbar{background-color: #fbc926; margin-bottom: 0px;}
+.container{width: 900px; margin: 0 auto;}
+.navbar-nav{float: right;}
+#frontPageBannerWrap{background-image: url(banner.png); height: 550px; background-size: 100% 100%; background-repeat: no-repeat;}
