@@ -14,4 +14,13 @@ class SurveysController < ApplicationController
 		@surveys = Survey.all
 		@survey = @surveys.find_by(params[:survey_id])
 	end
+
+	def create
+	end
+
+	def update
+	end
+
+	def delete
+	end
 end
