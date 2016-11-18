@@ -42,6 +42,12 @@ class AddDeviseToUsers < ActiveRecord::Migration[5.0]
     User.create! do |u|
         u.email     = 'test@test.com'
         u.password    = 'password'
+        u.first_name = 'Brian'
+        u.last_name = 'Park'
+        u.phone_number = 888888888
+        u.zip_code = 3333
+        u.occupation = 'dev'
+        u.age = 29
     end
   end
 

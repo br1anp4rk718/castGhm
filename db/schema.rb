@@ -13,7 +13,9 @@
 ActiveRecord::Schema.define(version: 20161116232836) do
 
   create_table "surveys", force: :cascade do |t|
-    t.string   "description"
+    t.string   "description", null: false
+    t.string   "category",    null: false
+    t.string   "date_range",  null: false
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
@@ -26,12 +28,12 @@ ActiveRecord::Schema.define(version: 20161116232836) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.integer  "phone_number"
-    t.string   "occupation"
-    t.integer  "zip_code"
-    t.integer  "age"
+    t.string   "first_name",                          null: false
+    t.string   "last_name",                           null: false
+    t.integer  "phone_number",                        null: false
+    t.string   "occupation",                          null: false
+    t.integer  "zip_code",                            null: false
+    t.integer  "age",                                 null: false
     t.text     "additional_info"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
