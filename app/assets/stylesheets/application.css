@@ -16,17 +16,20 @@
  */
 body{font-family: 'Helvetica', Arial, serif;}
 p{font-size: 16px; font-family: 'Helvetica', Arial;}
-h1{font-family: 'Quicksand', sans-serif;}
+h1{font-family: 'Quicksand', sans-serif; margin-bottom: 40px;}
+#frontPageBannerWrap h1{text-align: center; color: white; margin-top: 20%;}
+#frontPageBannerWrap p{text-align: center; color: white; font-family: 'Quicksand', Arial;}
 .center{text-align: center;}
-.navbar{background-color: #fbc926; margin-bottom: 0px; border: none;}
-.navbar-default .navbar-brand{color: white; font-size: 25px;}
-.navbar-default .navbar-nav>li>a{background-color: #fbc926; color: black;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color: #fbc926; color: black;}
+.navbar{background-color: #fbc926; margin-bottom: 0px; border: none;padding: 20px;}
+.navbar-default .navbar-brand{font-family: 'Quicksand', Arial; color: white; font-size: 25px;}
+.navbar-default .navbar-nav>li>a{font-weight: bold; font-family: 'Quicksand', Arial, serif; background-color: #fbc926; color: black;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{font-weight: bold; font-family: 'Quicksand', Arial; background-color: #fbc926; color: black;}
 .container{width: 900px; margin: 0 auto;}
 .navbar-nav{float: right;}
 .surveyDescription{font-family: 'Helvetica', Arial, serif; font-size: 20px; margin-top: 0px;}
 .signUpButton{display: inline-block; float: right; background-color: #fbc926; color: black; padding: 7px 40px; border-radius: 20px;}
 #frontPageBannerWrap{background-image: url(banner.png); height: 550px; background-size: 100% 100%; background-repeat: no-repeat;}
-.surveyGroups{text-align: left; border-bottom: 1px solid #d7d7d7; margin-bottom: 35px; padding-bottom: 40px; margin-top: 50px;}
+.surveyGroups{text-align: left; border-bottom: 1px solid #d7d7d7; margin-bottom: 35px;e padding-bottom: 40px; margin-top: 50px;}
 .surveyGroups h3{font-size: 20px; display: inline-block; margin-top: 0px;}
-.categoryDescription{font-size: 12px; font-family: 'Helvetica', Arial;}
+.categoryDescription{font-size: 12px; font-family: 'Helvetica', Arial; letter-spacing: 2px;}
+.interestedText{margin-top: 50px;}

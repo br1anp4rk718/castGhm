@@ -13,18 +13,20 @@
 ActiveRecord::Schema.define(version: 20161116232836) do
 
   create_table "surveys", force: :cascade do |t|
-    t.string   "description", null: false
-    t.string   "category",    null: false
-    t.string   "date_range",  null: false
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "description",      null: false
+    t.string   "category",         null: false
+    t.string   "date_range",       null: false
+    t.integer  "price_per_visit",  null: false
+    t.integer  "number_of_visits", null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "usergroups", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer  "user_id"
-    t.integer  "survey_id"
+    t.         "user_id"
+    t.         "survey_id"
   end
 
   create_table "users", force: :cascade do |t|
