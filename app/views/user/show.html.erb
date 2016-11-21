@@ -1,1 +1,12 @@
-test
+<div id="userInfoWrap">
+	<div class="container">
+		<h2>Welcome<%=  @user.first_name %></h2>
+		<h3>Your Info</h3>
+		<p class="userInfo">Last Name: <%= @user.last_name %></p>
+		<p class="userInfo">Phone Number: <%= @user.phone_number %></p>
+		<p class="userInfo">Occupation: <%= @user.occupation %></p>
+		<p class="userInfo">Zip Code: <%= @user.zip_code %></p>
+		<p class="userInfo">Age: <%= @user.age %></p>
+		<p class="userInfo">Additional Info: <%= @user.additional_info %></p>
+	</div>
+</div>

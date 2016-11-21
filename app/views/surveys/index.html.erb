@@ -1,0 +1,21 @@
+
+<div id="frontPageBannerWrap">
+	<div class="container">
+		<h1>Get Paid To Try Free Products!<br>Join a User Group Today.</h1>
+		<p>See Available Groups Below</p>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h1 class="center">Current &#38; Upcoming User Group Opportunities.</h1>
+		<% @surveys.each do | t | %>
+			<div class="surveyGroups">
+				<h3><%= t.description %></h3>
+				<%= link_to "SIGN UP", t , :class => "signUpButton"%>
+			</div>
+		<% end %> 
+		</div>
+	</div>
+</div>
